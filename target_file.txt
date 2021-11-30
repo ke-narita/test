@@ -1,15 +1,3 @@
-#基本コードCV1_GUI2_1
-
-import numpy as np
-import cv2 as cvS
-
-cap = cv.VideoCapture('sample.mp4')
-cv.namedWindow('frame',cv.WINDOW_AUTOSIZE)
-
-if not cap.isOpened()==True:
-    print("Cannot open camera") 
-    exit()
-    
 while True:
     
     # Capture frame-by-frame
